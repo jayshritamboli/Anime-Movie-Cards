@@ -5,7 +5,7 @@ let result =''
 
 anime.forEach(movie =>{
 	result	+= `		
-			<div class="col-md-4 mb-4">
+			<div class="col-sm-6 col-md-4 mb-4">
 				<div class="card">
 					<figure class="movieCard">
 						<img src=${movie.image}
@@ -31,5 +31,6 @@ anime.forEach(movie =>{
 				</div>
 			</div>`
 })
+
 
 movieContainer.innerHTML = result;
